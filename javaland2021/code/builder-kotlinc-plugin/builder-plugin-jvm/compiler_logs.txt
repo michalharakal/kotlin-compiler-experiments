@@ -1,0 +1,100 @@
+MODULE_FRAGMENT name:<main>
+  FILE fqName:<root> fileName:/tmp/Kotlin-Compilation17489288328593000288/sources/main.kt
+    CLASS CLASS name:Conference modality:FINAL visibility:public [data] superTypes:[kotlin.Any]
+      $this: VALUE_PARAMETER INSTANCE_RECEIVER name:<this> type:<root>.Conference
+      CONSTRUCTOR visibility:public <> (name:kotlin.String) returnType:<root>.Conference [primary]
+        VALUE_PARAMETER name:name index:0 type:kotlin.String
+        BLOCK_BODY
+          DELEGATING_CONSTRUCTOR_CALL 'public constructor <init> () [primary] declared in kotlin.Any'
+          INSTANCE_INITIALIZER_CALL classDescriptor='CLASS CLASS name:Conference modality:FINAL visibility:public [data] superTypes:[kotlin.Any]'
+      PROPERTY name:name visibility:public modality:FINAL [val]
+        FIELD PROPERTY_BACKING_FIELD name:name type:kotlin.String visibility:private [final]
+          EXPRESSION_BODY
+            GET_VAR 'name: kotlin.String declared in <root>.Conference.<init>' type=kotlin.String origin=INITIALIZE_PROPERTY_FROM_PARAMETER
+        FUN DEFAULT_PROPERTY_ACCESSOR name:<get-name> visibility:public modality:FINAL <> ($this:<root>.Conference) returnType:kotlin.String
+          correspondingProperty: PROPERTY name:name visibility:public modality:FINAL [val]
+          $this: VALUE_PARAMETER name:<this> type:<root>.Conference
+          BLOCK_BODY
+            RETURN type=kotlin.Nothing from='public final fun <get-name> (): kotlin.String declared in <root>.Conference'
+              GET_FIELD 'FIELD PROPERTY_BACKING_FIELD name:name type:kotlin.String visibility:private [final]' type=kotlin.String origin=null
+                receiver: GET_VAR '<this>: <root>.Conference declared in <root>.Conference.<get-name>' type=<root>.Conference origin=null
+      FUN GENERATED_DATA_CLASS_MEMBER name:component1 visibility:public modality:FINAL <> ($this:<root>.Conference) returnType:kotlin.String [operator]
+        $this: VALUE_PARAMETER name:<this> type:<root>.Conference
+        BLOCK_BODY
+          RETURN type=kotlin.Nothing from='public final fun component1 (): kotlin.String [operator] declared in <root>.Conference'
+            GET_FIELD 'FIELD PROPERTY_BACKING_FIELD name:name type:kotlin.String visibility:private [final]' type=kotlin.String origin=null
+              receiver: GET_VAR '<this>: <root>.Conference declared in <root>.Conference.component1' type=<root>.Conference origin=null
+      FUN GENERATED_DATA_CLASS_MEMBER name:copy visibility:public modality:FINAL <> ($this:<root>.Conference, name:kotlin.String) returnType:<root>.Conference
+        $this: VALUE_PARAMETER name:<this> type:<root>.Conference
+        VALUE_PARAMETER name:name index:0 type:kotlin.String
+          EXPRESSION_BODY
+            GET_FIELD 'FIELD PROPERTY_BACKING_FIELD name:name type:kotlin.String visibility:private [final]' type=kotlin.String origin=null
+              receiver: GET_VAR '<this>: <root>.Conference declared in <root>.Conference.copy' type=<root>.Conference origin=null
+        BLOCK_BODY
+          RETURN type=kotlin.Nothing from='public final fun copy (name: kotlin.String): <root>.Conference declared in <root>.Conference'
+            CONSTRUCTOR_CALL 'public constructor <init> (name: kotlin.String) [primary] declared in <root>.Conference' type=<root>.Conference origin=null
+              name: GET_VAR 'name: kotlin.String declared in <root>.Conference.copy' type=kotlin.String origin=null
+      FUN GENERATED_DATA_CLASS_MEMBER name:toString visibility:public modality:OPEN <> ($this:<root>.Conference) returnType:kotlin.String
+        overridden:
+          public open fun toString (): kotlin.String declared in kotlin.Any
+        $this: VALUE_PARAMETER name:<this> type:<root>.Conference
+        BLOCK_BODY
+          RETURN type=kotlin.Nothing from='public open fun toString (): kotlin.String declared in <root>.Conference'
+            STRING_CONCATENATION type=kotlin.String
+              CONST String type=kotlin.String value="Conference("
+              CONST String type=kotlin.String value="name="
+              GET_FIELD 'FIELD PROPERTY_BACKING_FIELD name:name type:kotlin.String visibility:private [final]' type=kotlin.String origin=null
+                receiver: GET_VAR '<this>: <root>.Conference declared in <root>.Conference.toString' type=<root>.Conference origin=null
+              CONST String type=kotlin.String value=")"
+      FUN GENERATED_DATA_CLASS_MEMBER name:hashCode visibility:public modality:OPEN <> ($this:<root>.Conference) returnType:kotlin.Int
+        overridden:
+          public open fun hashCode (): kotlin.Int declared in kotlin.Any
+        $this: VALUE_PARAMETER name:<this> type:<root>.Conference
+        BLOCK_BODY
+          RETURN type=kotlin.Nothing from='public open fun hashCode (): kotlin.Int declared in <root>.Conference'
+            CALL 'public open fun hashCode (): kotlin.Int [fake_override] declared in kotlin.String' type=kotlin.Int origin=null
+              $this: GET_FIELD 'FIELD PROPERTY_BACKING_FIELD name:name type:kotlin.String visibility:private [final]' type=kotlin.String origin=null
+                receiver: GET_VAR '<this>: <root>.Conference declared in <root>.Conference.hashCode' type=<root>.Conference origin=null
+      FUN GENERATED_DATA_CLASS_MEMBER name:equals visibility:public modality:OPEN <> ($this:<root>.Conference, other:kotlin.Any?) returnType:kotlin.Boolean [operator]
+        overridden:
+          public open fun equals (other: kotlin.Any?): kotlin.Boolean [operator] declared in kotlin.Any
+        $this: VALUE_PARAMETER name:<this> type:<root>.Conference
+        VALUE_PARAMETER name:other index:0 type:kotlin.Any?
+        BLOCK_BODY
+          WHEN type=kotlin.Unit origin=null
+            BRANCH
+              if: CALL 'public final fun EQEQEQ (arg0: kotlin.Any?, arg1: kotlin.Any?): kotlin.Boolean declared in kotlin.internal.ir' type=kotlin.Boolean origin=EQEQEQ
+                arg0: GET_VAR '<this>: <root>.Conference declared in <root>.Conference.equals' type=<root>.Conference origin=null
+                arg1: GET_VAR 'other: kotlin.Any? declared in <root>.Conference.equals' type=kotlin.Any? origin=null
+              then: RETURN type=kotlin.Nothing from='public open fun equals (other: kotlin.Any?): kotlin.Boolean [operator] declared in <root>.Conference'
+                CONST Boolean type=kotlin.Boolean value=true
+          WHEN type=kotlin.Unit origin=null
+            BRANCH
+              if: TYPE_OP type=kotlin.Boolean origin=NOT_INSTANCEOF typeOperand=<root>.Conference
+                GET_VAR 'other: kotlin.Any? declared in <root>.Conference.equals' type=kotlin.Any? origin=null
+              then: RETURN type=kotlin.Nothing from='public open fun equals (other: kotlin.Any?): kotlin.Boolean [operator] declared in <root>.Conference'
+                CONST Boolean type=kotlin.Boolean value=false
+          VAR IR_TEMPORARY_VARIABLE name:tmp0_other_with_cast type:<root>.Conference [val]
+            TYPE_OP type=<root>.Conference origin=CAST typeOperand=<root>.Conference
+              GET_VAR 'other: kotlin.Any? declared in <root>.Conference.equals' type=kotlin.Any? origin=null
+          WHEN type=kotlin.Unit origin=null
+            BRANCH
+              if: CALL 'public final fun not (): kotlin.Boolean [operator] declared in kotlin.Boolean' type=kotlin.Boolean origin=EXCLEQ
+                $this: CALL 'public final fun EQEQ (arg0: kotlin.Any?, arg1: kotlin.Any?): kotlin.Boolean declared in kotlin.internal.ir' type=kotlin.Boolean origin=EXCLEQ
+                  arg0: GET_FIELD 'FIELD PROPERTY_BACKING_FIELD name:name type:kotlin.String visibility:private [final]' type=kotlin.String origin=null
+                    receiver: GET_VAR '<this>: <root>.Conference declared in <root>.Conference.equals' type=<root>.Conference origin=null
+                  arg1: GET_FIELD 'FIELD PROPERTY_BACKING_FIELD name:name type:kotlin.String visibility:private [final]' type=kotlin.String origin=null
+                    receiver: GET_VAR 'val tmp0_other_with_cast: <root>.Conference [val] declared in <root>.Conference.equals' type=<root>.Conference origin=null
+              then: RETURN type=kotlin.Nothing from='public open fun equals (other: kotlin.Any?): kotlin.Boolean [operator] declared in <root>.Conference'
+                CONST Boolean type=kotlin.Boolean value=false
+          RETURN type=kotlin.Nothing from='public open fun equals (other: kotlin.Any?): kotlin.Boolean [operator] declared in <root>.Conference'
+            CONST Boolean type=kotlin.Boolean value=true
+    FUN name:main visibility:public modality:FINAL <> () returnType:kotlin.Unit
+      BLOCK_BODY
+        CALL 'public final fun println (message: kotlin.Any?): kotlin.Unit [inline] declared in kotlin.io.ConsoleKt' type=kotlin.Unit origin=null
+          message: CALL 'public final fun debug (): kotlin.String declared in <root>' type=kotlin.String origin=null
+    FUN name:debug visibility:public modality:FINAL <> () returnType:kotlin.String
+      BLOCK_BODY
+        RETURN type=kotlin.Nothing from='public final fun debug (): kotlin.String declared in <root>'
+          CONST String type=kotlin.String value="Hello, World!"
+

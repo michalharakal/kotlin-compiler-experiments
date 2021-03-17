@@ -1,0 +1,5 @@
+= Arrow meta
+
+Arrow Meta *data class* builder based on Arrowmeta sample https://github.com/arrow-kt/arrow-meta-examples/tree/master/generate-sources
+
+NOTE: Oversimplified (ignores package name and works only with String parameters)

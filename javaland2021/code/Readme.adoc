@@ -1,0 +1,11 @@
+= Kotlin compiler experiments
+
+Source code samples to talk
+"Kotlin Compiler Plugins: Keine Scheu vor Experimenten!"
+https://programm.javaland.eu/2021/#/scheduledEvent/606732
+
+== Projects
+
+* Experiment with _Data class builder generator_ implemented with *Arrow Meta*
+* Experiment with _Data class builder generator_ implemented with *KSP*
+* Experiment with _Data class builder generator_ implemented as plain *Kotlinc compiler plugin*
