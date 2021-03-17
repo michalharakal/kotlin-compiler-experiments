@@ -1,4 +1,4 @@
-rootProject.name = "kps-builder"
+rootProject.name = "ksp-builder"
 include("builder-processor")
 
 pluginManagement {
