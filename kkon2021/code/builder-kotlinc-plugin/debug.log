@@ -1,0 +1,11 @@
+MODULE_FRAGMENT name:<main>
+  FILE fqName:<root> fileName:/Users/michalharakal/projects/fiwio/kotlin-compiler-experiments/kkon2021/code/builder-kotlinc-plugin/kotlin-plugin/src/test/resources/hello.kt
+    FUN name:main visibility:public modality:FINAL <> () returnType:kotlin.Unit
+      BLOCK_BODY
+        CALL 'public final fun print (message: kotlin.Any?): kotlin.Unit [inline] declared in kotlin.io.ConsoleKt' type=kotlin.Unit origin=null
+          message: CALL 'public final fun helloWorld (): kotlin.String declared in <root>' type=kotlin.String origin=null
+    FUN name:helloWorld visibility:public modality:FINAL <> () returnType:kotlin.String
+      BLOCK_BODY
+        RETURN type=kotlin.Nothing from='public final fun helloWorld (): kotlin.String declared in <root>'
+          CONST String type=kotlin.String value="Hello world!"
+

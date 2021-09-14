@@ -1,0 +1,16 @@
+plugins {
+    id 'org.jetbrains.kotlin.multiplatform'
+}
+
+dependencies {
+    kotlinCompilerPluginClasspath project(":kotlin-plugin")
+}
+
+kotlin {
+    jvm()
+    sourceSets {
+        jvmTest.dependencies {
+            implementation 'junit:junit:4.13.1'
+        }
+    }
+}

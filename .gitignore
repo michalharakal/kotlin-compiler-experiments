@@ -2,3 +2,4 @@
 .gradle/
 build/
 kotlin-ir-plugin-template/cli/*.jar
+.DS_Store

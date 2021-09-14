@@ -1,0 +1,8 @@
+= KSP Builder pattern generator
+
+KSP based Kotlin compiler plugin generates builder for class annotated as `Builder`
+
+This project is based on official getting started plugin project https://github.com/google/ksp/releases/download/1.5.30-1.0.0/playground.zip[KSP playground]
+
+
+

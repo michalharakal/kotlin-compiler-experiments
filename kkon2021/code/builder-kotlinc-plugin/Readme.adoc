@@ -1,0 +1,5 @@
+= Simple Kotlin compiler plugin
+
+Simple Kotlin compiler plugin based on https://github.com/ShikaSD/kotlin-compiler-testbed[testbed project by Andrei Shikov]
+
+Extension just dumps IR into console and text file.

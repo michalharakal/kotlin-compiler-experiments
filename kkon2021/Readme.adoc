@@ -1,0 +1,20 @@
+= Kkon
+https://rheinwerk-kkon.de/
+
+== Title 
+
+Kotlin Compiler Plugins: Keine Scheu vor Experimenten!
+
+== Abstrakt
+
+Mit Jetpack Compose, dem Toolkit zur Entwicklung deklarativer Android-Oberflächen, hat Google gezeigt, dass mit Kotlin Compiler Plugin mächtige Metaprogrammierung Konzepte mit Kotlin möglich sind.
+Michal Harakals Vortrag zeigt Ihnen die Struktur des Kotlin-Compilers und stellt Ihnen die verschiedenen Kompilierungsphasen vor. Unterschiedliche Ansätze, wie man ein eigenes Compiler Plugin baut werden evaluiert und dargestellt. Angefangen mit einem einfachen "Hello world" bis zum Einsatz von Helfern wie Googles Bibliothek „Kotlin Symbol Processing“ oder Arrow-Meta. Nach dem Vortrag wissen Sie, wie Sie anfangen können, um ein eigenes Kotlin Compiler Plugin zu entwickeln.
+
+Hier lernen Sie:
+So funktioniert der Kotlin-Compiler
+Grundlagen und Praxiswissen, um ein eigenes Plugin zu schreiben
+Beispielprojekt zum Kotlin Compiler Plugin
+
+
+== Bio
+Michal Harakal arbeitet seit 2010 bei der Deutschen Telekom AG. Angefangen hat er als Android Entwickler und arbeitet als ein Machine Learning Engineer. Sein Werkzeugkasten ist mit vielen Werkzeugen und Programmiersprachen gefühlt, wo Kotlin eine bedeutende Rolle spielt. Er gibt sein Wissen gerne weiter und arbeitet bei einer Vielzahl an Open-Source-Projekten mit.

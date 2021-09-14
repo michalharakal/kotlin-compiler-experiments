@@ -1,0 +1,7 @@
+= Kotlin compiler experiments
+
+== Projects
+
+* Experiment with _Dump AST into file_ implemented implemented as plain *Kotlinc compiler plugin*
+* Experiment with _Data class builder generator_ implemented with *KSP*
+* Experiment with _hello world generator_ with *Arrow Meta*
